@@ -1,7 +1,7 @@
 import csv
 import json
 
-import config
+from test import config
 from transfer import transfer_pst
 
 if __name__ == '__main__':

@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from web3 import Web3, HTTPProvider
 
-import config
+from test import config
 
 web3 = Web3(HTTPProvider(config.eth_rpc))
 web3.eth.defaultAccount = config.account_address

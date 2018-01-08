@@ -3,9 +3,9 @@ import json
 csv_file = "value.csv"
 
 passwd = "12345678"
-token_contract_address = b"0x2c10949e7afe1486959c8a65a6abc20466531542"
-account_address = b'0x1c8555f8e0741f395e94c678f2064a394f169c4e'
-eth_rpc = "https://node.ropsten.tokenup.io"
+token_contract_address = b"ox123456"
+account_address = b'0x123456'
+eth_rpc = "https://localhost:8545"
 
 TOKEN_ABI = json.loads(
     """
